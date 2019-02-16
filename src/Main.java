@@ -1,7 +1,4 @@
-import easy.leetcode709;
-import easy.leetcode771;
-import easy.leetcode804;
-import easy.leetcode929;
+import easy.*;
 
 public class Main {
 
@@ -14,10 +11,13 @@ public class Main {
         System.out.println((new leetcode929(emails)).result());
 
         System.out.println((new leetcode709("LOVELY")).result());
-        */
 
         String[] words = new String[] {"gin", "zen", "gig", "msg"};
         System.out.println((new leetcode804(words)).result());
+        */
+
+        int[] A = new int[] {5,1,5,2,5,3,5,4};
+        System.out.println((new leetcode961(A).result()));
     }
 
 }
