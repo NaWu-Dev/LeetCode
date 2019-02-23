@@ -20,12 +20,22 @@ public class Main {
 
         int[] A = new int[]{-4,-1,0,3,10};
         System.out.println((new leetcode977(A).result()));
-        */
 
         int[] A = new int[]{3,1,2,4};
         int[] output = new leetcode905(A).result();
         for (int i = 0; i < output.length; i++)
             System.out.println(output[i]);
+        */
+
+        int[][] A = new int[][]{{1, 1, 0,0}, {1, 0, 0,1}, {0, 1, 1, 1}, {1, 0, 1,0}};
+        int[][] output = new leetcode832(A).result();
+        for (int i = 0; i < output.length; i++) {
+            for (int j = 0; j < output[i].length; j++) {
+                System.out.print(output[i][j]);
+            }
+            System.out.print("----");
+        }
+
     }
 
 }
